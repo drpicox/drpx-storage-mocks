@@ -43,7 +43,12 @@
 			return $q.when();
 		}
 		function getItem(key) {
-			var value = storageFactory._values[key];
+			var value;
+			if (key in storageFactory._values) {
+				value = storageFactory._values[key];
+			} else {
+				value = null;
+			}
 			return $q.when(value);
 		}
 		function keys() {
