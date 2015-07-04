@@ -1,0 +1,28 @@
+{
+  "name": "drpx-storage-mocks",
+  "version": "0.1.0",
+  "description": "A minimal mock for drpx-storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drpicox/drpx-storage-mocks"
+  },
+  "keywords": [
+    "angularjs",
+    "storage",
+    "localForage",
+    "mock"
+  ],
+  "author": "David Rodenas <david.rodenas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpicox/drpx-storage-mocks/issues"
+  },
+  "homepage": "https://github.com/drpicox/drpx-storage-mocks",
+  "dependencies": {
+    "localforage": "^1.2.3"
+  }
+}
