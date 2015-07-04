@@ -1,6 +1,6 @@
 {
   "name": "drpx-storage-mocks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal mock for drpx-storage",
   "main": "index.js",
   "scripts": {
